@@ -1,38 +1,55 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, roboto;
+}
+
+.center_div{
+  background-color: #FF5733;
+  width: 300px;
+  height: 500px; 
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+h1{
+  background-color: #fff;
   text-align: center;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px #fff; 
+  width: 80%;
+  margin-left: 15px;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  background-color: #fff;
+  color: #FF5733;
+  font-size: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 45%;
+  padding: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ol li{
+  list-style: none;
+  margin: 30px; 
 }
 
-.App-link {
-  color: #61dafb;
+.todo_style{
+ color: #fff;
+ font-size: 20px;
+ text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo_style .fa{
+  cursor: pointer;
 }
